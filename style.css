@@ -1,0 +1,57 @@
+body {
+  background: url(images/BlueWaves.png);
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.align {
+  list-style-type: none;
+  position: absolute;
+  right: 1%;
+  z-index: 500;
+}
+
+.heart {
+  list-style-type: none;
+  display: inline-block;
+}
+
+button {
+  background-color: #ff5a4e;
+  border: solid transparent;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  font-weight: 700;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: #eb443f;
+  box-shadow: 4px 4px grey;
+}
+
+#progress {
+  position: absolute;
+  margin-top: 10px;
+  display: inline-block;
+  right: 70px;
+  width: 300px;
+  background-color: #ffd700;
+  background-image: linear-gradient(to right, #ffa800, #ffd700);
+  border-radius: 5px;
+  outline: 3px solid white;
+  z-index: 200;
+}
+
+#healthBar {
+  position: relative;
+  display: inline-block;
+  width: 0px;
+  height: 30px;
+  background-color: white;
+}
