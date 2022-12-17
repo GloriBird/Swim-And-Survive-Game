@@ -20,5 +20,3 @@ const addBackground = (root) => {
   bg.style.borderRadius = `5px`;
   root.append(bg);
 };
-
-//removed the bottom white background

@@ -1,5 +1,3 @@
-// There will only be one instance of this class. This instance will contain the
-// data and methods related to the burger that moves at the bottom of your screen
 class Player {
   constructor(root) {
     this.x = 7 * PLAYER_WIDTH;

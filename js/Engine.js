@@ -27,12 +27,12 @@ class Engine {
     }
 
     if (this.isPlayerDead()) {
-      this.restart = new Restart(this.root); // Show restart button if dead
+      this.restart = new Restart(this.root);
       return;
     }
 
     setTimeout(this.gameLoop, 20);
-    this.overallScore(); //log in the score on screen
+    this.overallScore();
   };
 
   overallScore = () => {
@@ -49,11 +49,10 @@ class Engine {
         this.player.y <= this.enemies[i].y + ENEMY_HEIGHT &&
         this.player.x === this.enemies[i].x
       ) {
-        lives += 6; //increase the amount of damage by 6 times
+        lives += 6;
         this.healthBar = document.getElementById(`healthBar`);
         this.healthBar.style.width = `${lives}`;
         if (lives === 300) {
-          //300 is when health bar is depleted
           this.player.moveLeft = null;
           this.player.moveRight = null;
           this.player.moveUp = null;

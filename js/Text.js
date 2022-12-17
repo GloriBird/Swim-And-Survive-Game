@@ -1,5 +1,3 @@
-// This class is not used in the project yet.
-
 class Restart {
   constructor(root) {
     this.root = root;
