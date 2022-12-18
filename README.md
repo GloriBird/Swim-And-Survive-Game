@@ -6,6 +6,7 @@ The goal of the game is to stay alive as long as possible by avoiding the sharks
 
 Here's the link to the game: https://swim-and-survive.netlify.app/https://swim-and-survive.netlify.app/
 
+Tools used: JavaScript, HTML, CSS
 
 <h3>Installation:</h3>
  <ol>
