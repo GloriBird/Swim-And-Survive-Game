@@ -1,5 +1,5 @@
 <h2>Swim and Survive Game</h2>
-https://swim-and-survive.netlify.app/
+Here's the link to the game: https://swim-and-survive.netlify.app/https://swim-and-survive.netlify.app/
 
 This project was based on fixing a broken game and making it my own. I did so by changing all the styles, images, and adding new features to the JavaScript files to improve the gaming experience.
 
