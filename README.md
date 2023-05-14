@@ -4,7 +4,7 @@ This project was based on fixing a broken game and making it my own. I did so by
 
 The goal of the game is to stay alive as long as possible by avoiding the sharks that are raining from above. The longer you stay alive, the higher your score!
 
-Here's the link to the game: [Swim and Survive Game](https://swim-and-survive.netlify.app/)
+Here's the link to the game: <a href="https://swim-and-survive.netlify.app/" target="_blank">Swim and Survive Game</a>
 
 Tools used: JavaScript, HTML, CSS
 
